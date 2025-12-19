@@ -39,4 +39,4 @@ jobs:
           name: coverage-html
           path: backend/htmlcov
           include-hidden-files: true
-      - run: coverage report --fail-under=100
+      - run: uv run coverage report --fail-under=100
